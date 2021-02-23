@@ -7,55 +7,106 @@
 	<link href = "css/bootstrap.min.css" rel = "stylesheet">
 	<link href = "css/bootstrap-theme.min.css" rel = "stylesheet">
 	<link href = "css/home.css" rel = "stylesheet">
+	<link href = "css/navbar.css" rel = "stylesheet">
 </head>
 
 <body>
+	<div class="col-xs-12" id=space>
+		<div class="jumbotron navigation-bar">
+			<div class="dropdown">
+				<img id = side-button src="assets/hamburger.png" style="max-width:100%; max-height:100%;"></img>
+				<div class="dropdown-content">
+					<a class="links-hidden" href="/additem"><p class="dropdown-font">add item</p></a>
+					<a class="links-hidden" href="/history"><p class="dropdown-font">log history</p></a>
+					<a class="links-hidden" href="/share"><p class="dropdown-font">share with friends</p></a>
+					<a class="links-hidden" href="/tips"><p class="dropdown-font">sustainability tips</p></a>
+					<a class="links-hidden" href="/settings"><p class="dropdown-font">settings</p></a>
+					<a class="links-hidden" href="/help"><p class="dropdown-font">help</p></a>
+				</div>
+			</div>
+			
+			<div class="home-btn">
+				<button class="settings">
+					<a href="/settings"><img src="assets/user_icon_s.png" style="max-width:75%; max-height:75%;"></img></a>
+				</button>
+			</div>
+			<div class="home-btn">
+				<button class="home">
+					<a href="/"><img src="assets/home_S.png" style="max-width:75%; max-height:75%;"></img></a>
+				</button>
+			</div>
+		</div>
+	</div>
+	
 	<div class ="container" id = homepage>
-
 		<!-- No handlebars yet-->
-		<div class = "jumbotron" id = homepage>
-			<h1 class = "plastrack" ><i>Plastrack</i></h1>
-			<!-- <span class="glyphicon glyphicon-asterisk"></span> -->
+		<div class ="row">
+			<div class = "col-xs-10 col-xs-offset-1 title">
+					<h1 class = "plastrack" ><i>Plastrack</i></h1>
+			</div>
 		</div>
 		
-		<a href="/logpage">
-			<div class = "jumbotron" id = log>
-				<div class = "row"></div>
-				<h2><b>Log a Plastic</b></h2>
+		<div class="row">
+			<div class="col-xs-12">
+				<a href="/logpage">
+					<div class = "jumbotron log">
+						<h2><b>Log a Plastic</b></h2>
+					</div>
+				</a>
 			</div>
-		</a>
-
-		<a href="/history">
-			<div class = "well" >
-				<h2>View Log History</h2>
+		</div>
+		
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1">
+				<a href="/history">
+					<div class ="well menu-options">
+						<h2>View Log History</h2>
+					</div>
+				</a>
 			</div>
-		</a>
+		</div>
 
-		<a href="/share">
-			<div class = "well">
-				<h2>Share your Progress</h2>
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1">
+				<a href="/share">
+					<div class="well menu-options">
+						<h2>Share your Progress</h2>
+					</div>
+				</a>
 			</div>
-		</a>
-
-		<a href="/tips">
-			<div class = "well">
-				<h2>Sustainability Tips</h2>
+		</div>
+		
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1">
+				<a href="/tips">
+					<div class="well menu-options">
+						<h2>Sustainability Tips</h2>
+					</div>
+				</a>
 			</div>
-		</a>
-
-		<a href="/settings">
-			<div class = "well">
-				<h2>Settings</h2>
+		</div>
+		
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1">
+				<a href="/settings">
+					<div class="well menu-options">
+						<h2>Settings</h2>
+					</div>
+				</a>
 			</div>
-		</a>
-
-		<a href="/help">
-			<div class = "well">
-				<h2>Help</h2>
+		</div>
+		
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1">
+				<a href="/help">
+					<div class="well menu-options">
+						<h2>Help</h2>
+					</div>
+				</a>
 			</div>
-		</a>
-
+		</div>
 	</div>
+	
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
