@@ -1,0 +1,27 @@
+.all-buttons, .stats-button {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+}
+
+.stats-button {
+  background-color: gray; 
+  width: 25%;
+  height: 100px
+}
+#today {
+  border-radius: 20px 0px 0px 20px;
+}
+#week {
+
+}
+#month {
+
+}
+#year {
+  border-radius: 0px 20px 20px 0px;
+}
