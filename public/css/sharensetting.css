@@ -93,10 +93,6 @@
 .set-box {
   width: 30%;
 }
-hr {
-  border: 3px solid gray;
-  border-radius: 5px;
-}
 #send-btn, #save-btn {
   width: 100%;
 }
