@@ -1,0 +1,45 @@
+.plastrack, h2 {
+	text-align: center;
+	color: #000000;
+}
+
+body, #homepage {
+	background-color: #a9a9a9;
+}
+
+#log.jumbotron {
+	padding-top: 120px;
+  	padding-bottom: 120px;
+  	
+}
+
+#log.jumbotron h2 {
+	font-size: 100px;
+}
+
+#log.jumbotron {
+	border-radius: 80px;
+}
+
+.well {
+	border-radius: 30px;
+	background: #808080;
+}
+
+.well h2 {
+	color: #000000;
+}
+
+.well:hover,  #log.jumbotron:hover {
+	background-color: #000000;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+.well:hover h2, #log.jumbotron:hover h2{
+    color: white;
+}

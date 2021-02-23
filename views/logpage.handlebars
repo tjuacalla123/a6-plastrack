@@ -1,0 +1,86 @@
+<html>
+
+<head>
+	<title>Log your Plastics!</title>
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<link href = "css/bootstrap.min.css" rel = "stylesheet">
+	<link href = "css/bootstrap-theme.min.css" rel = "stylesheet">
+	<link href = "css/home.css" rel = "stylesheet">
+	<link href = "css/log.css" rel = "stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<nav>
+	<div class="dropdown-menu">
+		<button class="menu-btn" ><img src="assets/hamburger.png" style="max-width:75%; max-height:75%;"></img></button>
+		<div class="menu-content">
+			<a class="links-hidden" href="/">homepage</a>
+			<a class="links-hidden" href="/history">view log history</a>
+			<a class="links-hidden" href="/share">share with friends</a>
+			<a class="links-hidden" href="/tips">sustainability tips</a>
+			<a class="links-hidden" href="/settings">settings</a>
+			<a class="links-hidden" href="/help">help page</a>
+		</div>
+	</div>
+	
+	<div class="home-btn"><button class="menu-btn" ><a href="/settings"><img src="assets/user_icon_s.png" style="margin-top:5px; margin-right:10px;"></img></a><a href="/"><img src="assets/home_S.png" style="max-width:75%; max-height:75%;"></img></a></button></div>
+</nav>
+
+	<div class ="container" id = "homepage">
+		<!-- No handlebars yet -->
+		<div class = "jumbotron" id = "homepage">
+			<h1 class = "plastrack" ><i>Log Your Plastic.</i></h1>
+		</div>
+	</div>
+
+	<form class="search" style="margin:auto;max-width:300px">
+		<input type="text" placeholder="Search for type of plastic" name="search2">
+		<button type="submit"><i class="fa fa-search"></i></button>
+	</form>
+
+	<div id="wrapper" style="width: 100%;">
+ 		<div style="display: table; width: 85%; margin: auto;">
+			<div class = "logItem" >
+				<h2>straw</h2>
+			</div>
+			<div class = "logItem" >
+				<h2>PET cup</h2>
+			</div>
+			<div class = "logItem" >
+				<h2>bottle</h2>
+			</div>
+		</div>
+		<div style="display: table; width: 85%; margin: auto;">
+			<div class = "logItem" >
+				<h2>plastic bag</h2>
+			</div>
+			<div class = "logItem" >
+				<h2>spoon</h2>
+			</div>
+			<div class = "logItem" >
+				<h2>fork</h2>
+			</div>
+		</div>
+	</div>
+
+	<div style="display: table; width: 85%; margin: auto; background-image: url('assets/arrow_s.png'); background-repeat: no-repeat; background-size: 50% 50%; background-position: 70% 5%;">
+		<div class="rectangle"><a href="/additem"><h2>Tap this to add custom type</h2></a></div>
+		<center><h1>To log a plastic type, just drag it down to the bin!</h1></center>
+		<div id="overlapContainer">
+			<img src="assets/bin_S.png" style="filter:grayscale(100%);"></img>
+			<div id="overlapItem">Simply tap on the bin once you're finished!</div>
+		</div>
+		
+	</div>
+	
+	
+
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
