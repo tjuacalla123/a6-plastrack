@@ -9,11 +9,11 @@
   margin: 0px 0px 10px 0px;
   border-radius: 30px;
 }
-#desc1, #desc2 {
+#desc {
   display: none;
 }
 
 /*Hover styling*/
-#title1:hover  + #desc1, #title2:hover + #desc2 {
+#title:hover  + #desc {
   display: block;
 }

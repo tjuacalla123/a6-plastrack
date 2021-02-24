@@ -11,7 +11,6 @@
 </head>
 
 <body>
-	<div class="row">
 		<div class="col-xs-12" id=space>
 			<div class="jumbotron navigation-bar">
 				<div class="dropdown">
@@ -39,12 +38,11 @@
 			</div>
 			
 		</div>
-	</div>
 
 	
 	<div class ="row">
 		<div class = "col-xs-10 col-xs-offset-1 title">
-				<h2 class = "plastrack" ><i>Everyday Steps You Can Take to Reduce Your Plastic Usage</h2>
+				<h2 class = "plastrack" ><i>{{moduleTitle}}</i></h2>
 		</div>
 	</div>
 
@@ -62,81 +60,35 @@
 				reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 				
 			</div>
+			{{#each tips}}
 			<div class="jumbotron tip-titles" id = title>
-				Coffee or boba fiend? Bring a reusable cup! 
+				{{title}} 
 			</div>
 			<div class="well descriptions" id = desc>
-				Or better yet, bring your own. If you're a tea person, opt for loose-leaf rather than teabags to minimize  waste. 
+				{{desc}}
 			</div>
-			<div class="jumbotron tip-titles" id = title>
-				Forget your reusable cup? Ask for a paper one!
-			</div>
-			<div class="well descriptions" id = desc>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-			</div>
-			<div class="jumbotron tip-titles" id = title>
-				Going shopping? Bring a cloth bag!
-			</div>
-			<div class="well descriptions" id = desc>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-			</div>
-			<div class="jumbotron tip-titles" id = title>
-				Buy in bulk at the grocery store
-			</div>
-			<div class="well descriptions" id = desc>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-			</div>
+			{{/each}}
 				<div class ="row">
 		<div class = "col-xs-10 col-xs-offset-1 title">
-				<h2 class = "plastrack" ><i>The Bigger Picture</i>: Why Sustainability Matters</h2>
+				<h2 class = "plastrack" >{{moduleTitle2}}</h2>
 		</div>
 	</div>
-
 			<div class="jumbotron tip-titles" id = title>
-				How Much Plastic Actually Gets Recycled?
-			</div>
-			<div class="well descriptions" id = desc>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-				nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-				reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-				nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-				reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-			</div>
-			<div class="jumbotron tip-titles" id = title>
-				Your Role in Helping Alleviate the Global Waste Crisis
-			</div>
-			<div class="well descriptions" id = desc>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-				nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-				reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-				nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-				reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-			</div>
-
-			<div class="jumbotron tip-titles" id = title>
-				How Plastrack Can Help
+				{{plastrackTitle}}
 			</div>
 			<div class="well descriptions">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-				nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-				reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				{{plastrackDesc}}
 
 			</div>
+		{{#each info}}
+			<div class="jumbotron tip-titles" id = title>
+				{{title}}
+			</div>
+			<div class="well descriptions" id = desc>
+				{{desc}}
+			</div>
+			{{/each}}
+
 		</div>	
 	</div>
 	

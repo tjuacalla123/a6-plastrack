@@ -1,35 +1,3 @@
 {
-	"dropdown": [
-		{
-			"title": "Setting 1",
-			"option": [
-				{
-					"optionName": "Setting 1 option 1"
-				},
-				{
-					"optionName": "Setting 1 option 2"
-				}
-			]	
-		},
-		{
-			"title": "Setting 2",
-			"option": [
-				{
-					"optionName": "Setting 2 option 1"
-				},
-				{
-					"optionName": "Setting 2 option 2"
-				}
-			]		
-		}
-	],
-	"slider": [
-		{
-			"title": "Sound"
-		},
-		{
-			"title": "Dark mode"
-		}
-	],
 	"shareBtnTitle": "Sync your Facebook account"
 }
