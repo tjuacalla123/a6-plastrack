@@ -44,43 +44,31 @@
 			</div>
 		</div>
 		
+		{{#each dropdown}}
 		<div class="row">
 			<div class="col-xs-12 share">
 					<div class="well set-share">
 						<div class="setting-text">
-							<p class="set-text">Setting 1</p>
+							<p class="set-text">{{title}}</p>
 						</div>
 						<div class="set-box">
 							<select name="friend" id=choose-settings>
-								<option value="friend">Option 1</option>
-								<option value="friend">Option 2</option>
+								{{#each option}}
+								<option value="friend">{{optionName}}</option>
+								{{/each}}
 							</select>
 						</div>
 					</div>
 			</div>
 		</div>
-		
-			<div class="row">
-				<div class="col-xs-12 share">
-						<div class="well set-share">
-							<div class="setting-text">
-								<p class="set-text">Setting 2</p>
-							</div>
-							<div class="set-box">
-								<select name="friend" id=choose-settings>
-									<option value="friend">Option 1</option>
-									<option value="friend">Option 2</option>
-								</select>
-							</div>
-						</div>
-				</div>
-			</div>
-			
+		{{/each}}
+	
+		{{#each slider}}	
 			<div class="row">
 				<div class="col-xs-12 share">
 					<div class="well set-share">
 						<div class="setting-text">
-							<p class="set-text">Sound:</p>
+							<p class="set-text">{{title}}</p>
 						</div>
 						<div class="set-box">
 							<label class="switch">
@@ -91,27 +79,12 @@
 					</div>
 				</div>
 			</div>
-			
-			<div class="row">
-				<div class="col-xs-12 share">
-					<div class="well set-share">
-						<div class="setting-text">
-							<p class="set-text">Dark mode:</p>
-						</div>
-						<div class="set-box">
-							<label class="switch">
-								<input type="checkbox">
-								<span class="slider round"></span>
-							</label>
-						</div>
-					</div>
-				</div>
-			</div>
+			{{/each}}
 			
 			<div class="row">
 				<div class="col-xs-10 col-xs-offset-1">
 					<div class="integrate">
-						<input type="submit" value="Sync your Facebook account" id = integration>
+						<input type="submit" value="{{shareBtnTitle}}" id = integration>
 					</div>
 				</div>
 			</div>								
