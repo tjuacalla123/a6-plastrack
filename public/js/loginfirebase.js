@@ -52,13 +52,13 @@
 		if(user){
 			
 			var email = user.email;
-			alert("Active User " + email);
+			alert("Welcome user " + email);
 			
 			//Take user to a different or home page
 
 			//is signed in
 			  console.log("redirect")
-  			window.location.href = "/";
+  			window.location.href = "/homepage";
 			
 		}else{
 			

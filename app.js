@@ -9,7 +9,7 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var login = require('./routes/login');
-var index = require('./routes/index');
+var homepage = require('./routes/index');
 var logpage = require('./routes/logpage');
 var history = require('./routes/history');
 var share = require('./routes/share');
@@ -43,8 +43,8 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/login', login.view);
-app.get('/', index.view);
+app.get('/', login.view);
+app.get('/homepage', homepage.view);
 app.get('/logpage', logpage.view);
 app.get('/history', history.view);
 app.get('/share', share.view);
