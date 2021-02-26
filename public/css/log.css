@@ -37,7 +37,7 @@
 	flex-direction: row;
 	justify-content: center;
 }
-.plastic-contents, .search-plastic, .trash-add-delete {
+.search-plastic, .trash-add-delete {
 	display: flex;
 	flex-direction: column;
 }
@@ -58,6 +58,7 @@
 	text-align: center;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	z-index: 1;
 }
 .add-delete {

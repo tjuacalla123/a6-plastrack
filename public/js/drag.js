@@ -1,5 +1,4 @@
 //Adapted from ahsteele on Stack Overflow
-
 $( function() { 
     var loggedItems = [];
     sessionStorage.setItem("loggedItems", JSON.stringify(loggedItems));
@@ -34,4 +33,3 @@ $( function() {
 
     });
 } ); 
-
