@@ -8,6 +8,7 @@
 	<link href = "css/bootstrap-theme.min.css" rel = "stylesheet">
 	<link href = "css/additem.css" rel = "stylesheet">
 	<link href = "css/navbar.css" rel = "stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 </head>
 
 	<body>
@@ -51,7 +52,7 @@
 						<div class="name">
 							Plastic Name:
 						</div>
-						<input type="text" placeholder="Name of plastic" name="plastic-name">
+						<input type="text" placeholder="Name of plastic" name="plastic-name" id=plastic-name>
 					</div>
 				</div>
 			</div>
@@ -63,35 +64,53 @@
 							Size:
 						</div>
 						<select name="size" id=choose-boxes>
-							<option value="size">small</option>
-							<option value="size">medium</option>
-							<option value="size">large</option>
+							<option value="...">...</option>
+							<option value="small">small</option>
+							<option value="medium">medium</option>
+							<option value="large">large</option>
 						</select>
 					</div>
 				</div>
 			</div>
 			
 			<div class="row">
-				<div class="col-xs-6 col-xs-offset-3">
+				<div class="col-xs-6 col-xs-offset-3 camera-col">
 					<div class="camera">
-						Take a Photo
+						<i class="bi bi-cup"></i>
 					</div>
-				</div>
-			</div>
-			
-			<div class ="row">
-				<div class = "col-xs-10 col-xs-offset-1 title">
-						<h2 class = "plastrack" ><i>Or</i></h2>
 				</div>
 			</div>
 			
 			<div class="row">
 				<div class="col-xs-6 col-xs-offset-3">
 					<div class="well add-pic">
-						Get from Camera Roll
+						Choose Icon
 					</div>
 				</div>
 			</div>
+			
+			<div class="row icon-list">
+				<div class="col-xs-6 col-xs-offset-3 camera-col">
+					<div class="jumbotron plastic-list">
+								<i class="bi bi-cup"></i>
+								<i class="bi bi-bag"></i>
+								<i class="bi bi-cup-straw"></i>
+								<i class="bi bi-cup-fill"></i>
+								<i class="bi bi-droplet"></i>
+								<i class="bi bi-trash2"></i>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			<div class="row">
@@ -101,8 +120,11 @@
 			</div>
 		</div>
 
-	<script src="https://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="/js/addplastics.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	
+	
 </body>
 
 </html>
