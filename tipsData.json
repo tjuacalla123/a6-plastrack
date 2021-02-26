@@ -24,10 +24,12 @@
 	"navIcon" : [
 		{
 		"src" : "assets/user_icon_s.png",
+		"link-title": "settings",
 		"url" : "/settings"
 		},
 		{
 		"src" : "assets/home_S.png",
+		"link-title": "homepage",
 		"url" : "/homepage"
 		}
 	],
