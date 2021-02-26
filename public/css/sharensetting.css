@@ -32,7 +32,7 @@
   transform: translate(-50%, -50%);
 }
 
-.well, .jumbotron, #choose-boxes, #choose-settings, #send-btn, #save-btn, #integration {
+.well, .jumbotron, #choose-boxes, #choose-settings, #send-btn, #send-btn2, #save-btn, #integration {
   border-radius: 30px;
 }
 #choose-boxes {
@@ -96,7 +96,7 @@
 .set-box {
   width: 30%;
 }
-#send-btn, #save-btn {
+#send-btn, #save-btn, #send-btn2{
   width: 100%;
 }
 

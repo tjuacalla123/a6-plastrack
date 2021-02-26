@@ -9,14 +9,17 @@
 	<link href = "css/sharensetting.css" rel = "stylesheet">
 	<link href = "css/navbar.css" rel = "stylesheet">
 
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
 	<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
 
 		<!-- TODO: Add SDKs for Firebase products that you want to use
      	https://firebase.google.com/docs/web/setup#available-libraries -->
 	<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
-
 	<script src="js/settingsfirebase.js"></script>
+	<script src="js/settings.js"></script>
 </head>
 
 <body>
@@ -38,7 +41,7 @@
 					</button>
 				</div>
 				{{/each}}
-				
+
 		</div>
 	</div>
 	<div class="container">
@@ -106,9 +109,6 @@
 				<button onclick="signOut()" id="signOut"> Sign Out </button>
 			</div>
 		</div>
-
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
 	</div>
 </body>
 
