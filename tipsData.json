@@ -5,6 +5,10 @@
 		"url" : "/homepage"	
 		},
 		{
+		"title": "Log Plastic",
+		"url" : "/logpage"	
+		},
+		{
 		"title": "Log History",
 		"url" : "/history"	
 		},
@@ -24,10 +28,12 @@
 	"navIcon" : [
 		{
 		"src" : "assets/user_icon_s.png",
+		"link-title": "settings",
 		"url" : "/settings"
 		},
 		{
 		"src" : "assets/home_S.png",
+		"link-title": "homepage",
 		"url" : "/homepage"
 		}
 	],
