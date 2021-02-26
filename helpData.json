@@ -6,6 +6,10 @@
 		"url" : "/homepage"	
 		},
 		{
+		"title": "Log Plastic",
+		"url" : "/logpage"	
+		},
+		{
 		"title": "Log History",
 		"url" : "/history"	
 		},
