@@ -9,10 +9,15 @@
 	<link href = "css/navbar.css" rel = "stylesheet">
 	<link href = "css/log.css" rel = "stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/drag.js"></script>
 </head>
 
 <body>
-
+ <div class="thewholepage">
 	<div class="col-xs-12" id=space>
 		<div class="jumbotron navigation-bar">
 			<div class="dropdown">
@@ -58,34 +63,32 @@
 						<input type="text" placeholder="Search for type of plastic" name="search2" class= "search-bar">
 						<button type="submit" class="search-p"><i class="fa fa-search"></i></button>
 					</form>
-					<div class="well plastic-contents">
-						<div class="single-plastic">
+					 <div class="well plastic-contents"> 
+						<div class="single-plastic" id="Water Bottle">
 							Water Bottle
 						</div>
-						<div class="single-plastic">
+						<div class="single-plastic" id="Plastic Bag">
 							Plastic Bag	
 						</div>
-						<div class="single-plastic">
+						<div class="single-plastic" id="Coffee Cup">
 							Coffee cup
 						</div>
-						<div class="single-plastic">
+						<div class="single-plastic" id="Coffee Cup">
 							Coffee cup
 						</div>
-						<div class="single-plastic">
+						<div class="single-plastic" id="Coffee Cup">
 							Coffee cup
 						</div>
-						<div class="single-plastic">
+						<div class="single-plastic" id="Coffee Cup">
 							Coffee cup
 						</div>
-					</div>
+					</div> 
 				</div>
 				
 				<div class="trash-add-delete">
-					<div class="well contents">
-						<p>1x Coffee Cup<p>
-						<p>2x Water Bottle<p>
+					<div class="well contents" id="loggedTemp">
 					</div>
-					<div class="recycling-bin">
+					<div class="recycling-bin" >
 						<img src="assets/bin_S.png" style="filter:grayscale(100%);" id=trash></img>
 						<p class="tip2">Simply tap on the bin once you're finished!</p>
 					</div>
@@ -103,9 +106,7 @@
 			</div>
 		</div>
 	</div>
-	
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+</div>
 </body>
 
 </html>
