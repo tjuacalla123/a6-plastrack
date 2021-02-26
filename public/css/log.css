@@ -58,7 +58,7 @@
 	text-align: center;
 	display: flex;
 	align-items: center;
-	z-index: 9001;
+	z-index: 1;
 }
 .add-delete {
 	height: 100%;

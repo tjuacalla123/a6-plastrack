@@ -5,6 +5,7 @@ $( function() {
     sessionStorage.setItem("loggedItems", JSON.stringify(loggedItems));
     $( ".single-plastic" ).draggable({
         appendTo: $("#homepage"),
+        helper: "clone",
         revert:  function(dropped) {
             var dropped = dropped && dropped[0].id == "droppable";
             return !dropped;
