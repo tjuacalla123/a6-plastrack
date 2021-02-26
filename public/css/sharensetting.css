@@ -1,4 +1,10 @@
-.send-progress, .view-progress, .settings-list {
+
+#sign-out-container {
+  width: 90%;
+  margin: auto;
+}
+
+.send-progress, .view-progress, .settings-list{
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -42,6 +48,30 @@
   width: 100px;
 }
 
+#username {
+  font-size: 15px;
+  height: 50px;
+  width: 50%;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 50%;
+}
+
+
+
+.sign-out-box{
+  width: 30%;
+
+}
+#sign-out-container {
+    display: flex;
+  align-items: center;
+    justify-content: space-between;
+  margin: auto;
+  width: 50%;
+  height: 50px;
+}
 .text, .setting-text {
   height: 50px;
   position: relative;
@@ -151,7 +181,7 @@
 }
 
 input:checked + .slider {
-  background-color: gray;
+  background-color: black;
 }
 
 input:focus + .slider {

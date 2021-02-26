@@ -27,8 +27,6 @@
 		alert("Signed Up");
 	}
 	
-	
-	
 	function signIn(){
 		
 		var email = document.getElementById("email");
@@ -36,6 +34,8 @@
 		
 		const promise = auth.signInWithEmailAndPassword(email.value, password.value);
 		promise.catch(e => alert(e.message));
+		alert("Signed In");
+
 	}
 	
 	
@@ -46,15 +46,17 @@
 	}
 	
 	
-	
 	auth.onAuthStateChanged(function(user){
 		
 		if(user){
-			
 			var email = user.email;
-			
-		}else{
-			
+			document.getElementById("sign-in-container").style.visibility = "hidden";
+			 document.getElementById('username').innerHTML = email;
+			document.getElementById("sign-out-container").style.visibility = "visible";
+
+		} else{
+			document.getElementById("sign-out-container").style.visibility = "hidden";
+			document.getElementById("sign-in-container").style.visibility = "visible";
 		}
 		
 	});

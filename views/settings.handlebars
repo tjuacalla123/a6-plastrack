@@ -51,6 +51,30 @@
 			</div>
 		</div>
 		
+
+		<div class="row">
+			<div class="col-xs-12 submit">
+				<div id="sign-in-container">
+				<input type="email" placeholder="email" id="email" />
+				<input type="password" placeholder="password" id="password" />
+				<button onclick="signIn()" id="signIn"> Sign In </button></div>
+			</div>
+		</div>
+
+		<!--<div class="row">
+			<div class="col-xs-12 submit">
+				<div id="sign-out-container">
+				<p id="username"></p> <button onclick="signOut()" id="signOut"> Sign Out </button></div>
+			</div>
+		</div>-->
+
+					<div id="sign-out-container">
+							<p id="username"></p>
+						<div class="sign-out-box">
+								<button onclick="signOut()" id="signOut"> Sign Out </button>
+						</div>
+					</div>
+
 		{{#each dropdown}}
 		<div class="row">
 			<div class="col-xs-12 share">
@@ -104,11 +128,6 @@
 		</div>
 	
 
-		<div class="row">
-			<div class="col-xs-6 col-xs-offset-3 submit">
-				<button onclick="signOut()" id="signOut"> Sign Out </button>
-			</div>
-		</div>
 	</div>
 </body>
 
