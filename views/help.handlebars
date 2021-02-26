@@ -16,25 +16,19 @@
 				<div class="dropdown">
 					<img id = side-button src="assets/hamburger.png" style="max-width:100%; max-height:100%;"></img>
 					<div class="dropdown-content">
-						<a class="links-hidden" href="/"><p class="dropdown-font">homepage</p></a>
-						<a class="links-hidden" href="/history"><p class="dropdown-font">log history</p></a>
-						<a class="links-hidden" href="/share"><p class="dropdown-font">share with friends</p></a>
-						<a class="links-hidden" href="/tips"><p class="dropdown-font">sustainability tips</p></a>
-						<a class="links-hidden" href="/settings"><p class="dropdown-font">settings</p></a>
-						<a class="links-hidden" href="/help"><p class="dropdown-font">help</p></a>
+						{{#each navLink}}
+						<a class="links-hidden" href="{{url}}"><p class="dropdown-font"><p>{{title}}</p></a>
+						{{/each}}
 					</div>
 				</div>
 				
+				{{#each navIcon}}
 				<div class="home-btn">
 					<button class="settings">
-						<a href="/settings"><img src="assets/user_icon_s.png" style="max-width:75%; max-height:75%;"></img></a>
+						<a href="{{url}}"><img src="{{src}}" style="max-width:75%; max-height:75%;"></img></a>
 					</button>
 				</div>
-				<div class="home-btn">
-					<button class="home">
-						<a href="/"><img src="assets/home_S.png" style="max-width:75%; max-height:75%;"></img></a>
-					</button>
-				</div>
+				{{/each}}
 			</div>
 			
 		</div>

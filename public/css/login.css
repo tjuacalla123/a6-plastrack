@@ -44,12 +44,18 @@ h1 {
 	border-bottom: 2px solid #111;
 }
 
+#buttons{
+	width: 90%;
+	margin: auto;
+}
+
 #signUp{
 	background-color: #314882;
 	color: white;
 	border: none;
 	font-weight: bold;
-	padding: 15px 32px;
+	width: 35%;
+	padding: 15px 15px;
 	border-radius: 10px;
 	text-align: center;
 	text-decoration: none;
@@ -64,7 +70,8 @@ h1 {
 	color: white;
 	font-weight: bold;
 	border: none;
-	padding: 15px 32px;
+	width: 35%;
+	padding: 15px 15px;
 	border-radius: 10px;
 	text-align: center;
 	text-decoration: none;
