@@ -1,4 +1,36 @@
 {
+	"navLink" : [
+		{
+		"title": "Homepage",
+		"url" : "/homepage"	
+		},
+		{
+		"title": "Log History",
+		"url" : "/history"	
+		},
+		{
+		"title": "Share",
+		"url" : "/share"	
+		},
+		{
+		"title": "Settings",
+		"url" : "/settings"	
+		},
+		{
+		"title": "Help",
+		"url" : "/help"	
+		}
+	],
+	"navIcon" : [
+		{
+		"src" : "assets/user_icon_s.png",
+		"url" : "/settings"
+		},
+		{
+		"src" : "assets/home_S.png",
+		"url" : "/homepage"
+		}
+	],
 	"moduleTitle": "Everyday Steps You Can Take to Reduce Your Plastic Usage",
 	"moduleTitle2": "The Bigger Picture: Why Sustainability Matters",
 	"tips": [

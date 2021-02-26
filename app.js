@@ -9,7 +9,7 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var login = require('./routes/login');
-var homepage = require('./routes/index');
+var homepage = require('./routes/homepage');
 var logpage = require('./routes/logpage');
 var history = require('./routes/history');
 var share = require('./routes/share');
