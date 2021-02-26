@@ -64,7 +64,10 @@
 }
 .row-share {
   margin: auto 0;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 10px 0px 0px 0px;
+  width: 100%;
+  height: 50px;
 }
 
 .set-share {
